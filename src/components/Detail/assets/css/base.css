@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+    --primary-color: #78b43d;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+
+    --star-gold-color: #ffce3e;
+
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-width-search-height: calc(var(--header-height) - var(--navbar-height));
+    --header-height-sort-bar: 46px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* ( mac dinh ) font-size: 100% la 16px */
+    /* 1rem = 16px */
+    /* HACK */
+    /* if html fsize = 62.5 thi now 1rem = 10px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* responsive */
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+/* test */
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+
+.grid__column-2-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3333%;
+}
+
+/* animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+
+.app {
+    overflow: hidden;
+}
+
+.header {
+    height: var(--header-height);
+    /* background-image: linear-gradient(0, #ff6433, #f53f2d); 0 để đảo chiều linear */
+    background-color: var(--primary-color);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* button style */
+.btn {
+    min-width: 124px;
+    height: 34px;
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0 8px;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--text-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6rem;
+    /* background-color: var(--white-color); */
+}
