@@ -6,14 +6,6 @@ const cx = classNames.bind(styles);
 function Right() {
   return (
     <div className={cx("wrapper")}>
-      <h1>
-        <img
-          src="https://static-images.vnncdn.net/files/publish/2022/10/22/world-cup-nu-2023-196.jpg"
-          width="100%"
-          height="500"
-        ></img>
-      </h1>
-
       <a>Tin tức thị trường</a>
 
       <table>
