@@ -48,7 +48,22 @@
 .item a {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
-  // line-height: 17px;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+}
+.item2 a {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+  }
 }
 .content {
   margin-left: 8px;

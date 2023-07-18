@@ -14,7 +14,6 @@ function CategoryPart() {
         Ronaldo tuyên bố giải Ả Rập tốt hơn MLS của Messi, đá chính ngày Al
         Nassr thua 0-5
       </p>
-
       <div className={cx("news")}>
         <img src="https://cdn.24h.com.vn/upload/3-2023/images/2023-07-18/120x90/vadvvxss-1689641372-917-width740height555.jpg" />
         <p className={cx("content")}>
@@ -35,10 +34,10 @@ function CategoryPart() {
       </div>
 
       <div className={cx("news2")}>
-        <div className={cx("item")}>
+        <div className={cx("item2")}>
           <a>MU sẽ ra sao nếu không kịp mua tiền đạo: Ten Hag phải..</a>
         </div>
-        <div className={cx("item")}>
+        <div className={cx("item2")}>
           <a>MU sẽ ra sao nếu không kịp mua tiền đạo: Ten Hag phải..</a>
         </div>
       </div>
