@@ -11,6 +11,7 @@ function Content() {
       <CategoryPart />
       <CategoryPart />
       <CategoryPart />
+      <CategoryPart />
     </div>
   );
 }

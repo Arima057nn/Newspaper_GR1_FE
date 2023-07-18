@@ -115,7 +115,7 @@ function Header() {
                 </ul>
               </li>
               <li>
-                <a>Thời trang Hi-tech</a>
+                <a>Thời trang</a>
                 <ul className={cx("submenu2")}>
                   <li>
                     <a href="#">Điện thoại</a>
