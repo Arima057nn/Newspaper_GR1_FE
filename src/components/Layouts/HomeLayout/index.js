@@ -3,7 +3,7 @@ import Header from "../../common/Header";
 
 import classNames from "classnames/bind";
 import styles from "./HomeLayout.module.scss";
-import Right from "../../Home/Right"
+import Right from "../../Home/Right";
 
 const cx = classNames.bind(styles);
 function HomeLayout({ content }) {
@@ -16,7 +16,7 @@ function HomeLayout({ content }) {
           <Right />
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
