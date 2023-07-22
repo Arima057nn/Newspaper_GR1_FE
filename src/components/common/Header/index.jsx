@@ -180,13 +180,12 @@ function Header() {
                 </ul>
               </li>
               <li>
-                <a>Làm đẹp</a>
+                <a>Khoa học</a>
                 <ul className={cx("submenu2")}>
                   <li>
-                    <a href="#">Thẩm mỹ viện</a>
-                    <a href="#">Tư vấn làm đẹp</a>
-                    <a href="#">Làm đẹp cùng sao</a>
-                    <a href="#">Phong cách làm đẹp</a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
                   </li>
                 </ul>
               </li>
@@ -336,13 +335,11 @@ function Header() {
                 <a>Du lịch</a>
                 <ul className={cx("submenu2")}>
                   <li>
-                    <a href="#">Du lịch Việt Nam</a>
-                    <a href="#">Du lịch Trung Quốc</a>
-                    <a href="#">Du lịch Châu âu</a>
-                    <a href="#">Du lịch Châu á</a>
-                    <a href="#">Tin tức du lịch</a>
-                    <a href="#">Tra cứu địa điểm du lịch</a>
-                    <a href="#">Ảnh</a>
+                    <a href="#">Điểm đến</a>
+                    <a href="#">Ẩm thực</a>
+                    <a href="#">Dấu chân</a>
+                    <a href="#">Tư vấn</a>
+                    <a href="#">Cẩm nang</a>
                   </li>
                 </ul>
               </li>
@@ -552,27 +549,18 @@ function Header() {
           <li>
             <div className={cx("category")}>
               <img src="https://icdn.24h.com.vn/upload/4-2018/images/2018-11-05/lamdep-1541404755-172-width10height20.png" />
-              <a href="#">Làm đẹp</a>
+              <a href="#">Khoa học</a>
             </div>
             <ul className={cx("submenu")}>
               <li>
-                <a>Thẩm mỹ viện</a>
-              </li>
-              <li>
-                <a>Tư vấn làm đẹp</a>
-              </li>
-              <li>
-                <a>Làm đẹp cùng sao</a>
-              </li>
-              <li>
-                <a>Phong cách làm đẹp</a>
+                <a>Khoa học</a>
               </li>
             </ul>
           </li>
           <li>
             <div className={cx("category")}>
               <img src="https://icdn.24h.com.vn/upload/4-2018/images/2018-11-05/showbiz-1541404755-320-width20height20.png" />
-              <a href="#">Showbiz</a>
+              <a href="#">Giải trí</a>
             </div>
             <ul className={cx("submenu")}>
               <li>
@@ -596,34 +584,34 @@ function Header() {
             </div>
             <ul className={cx("submenu")}>
               <li>
-                <a>Doanh nhân</a>
-              </li>
-              <li>
-                <a>Tài chính</a>
-              </li>
-              <li>
-                <a>Bất động sản</a>
-              </li>
-              <li>
-                <a>Khởi nghiệp</a>
+                <a>Quốc tế</a>
               </li>
               <li>
                 <a>Doanh nghiệp</a>
               </li>
               <li>
-                <a>Ngân hàng</a>
+                <a>Chứng khoán</a>
               </li>
               <li>
-                <a>Chứng khoán</a>
+                <a>Ebank</a>
+              </li>
+              <li>
+                <a>Vĩ mô</a>
+              </li>
+              <li>
+                <a>Tiền của tôi</a>
+              </li>
+              <li>
+                <a>Bảo hiểm</a>
               </li>
               <li>
                 <a>Tỉ giá ngoại tệ</a>
               </li>
               <li>
-                <a>Giá vàng hôm nay</a>
+                <a>Hàng hóa</a>
               </li>
               <li>
-                <a>Tiền Tiền Tiền</a>
+                <a>Ebox</a>
               </li>
             </ul>
           </li>
@@ -689,85 +677,58 @@ function Header() {
             </div>
             <ul className={cx("submenu")}>
               <li>
-                <a>Bệnh đàn ông</a>
+                <a>Tin tức</a>
               </li>
               <li>
-                <a>Bệnh phụ nữ</a>
+                <a>Tư vấn</a>
               </li>
               <li>
-                <a>Sức khỏe dinh dưỡng</a>
+                <a>Dinh dưỡng</a>
               </li>
               <li>
-                <a>Sức khỏe tình dục</a>
+                <a>Khỏe đẹp</a>
               </li>
               <li>
-                <a>Phát minh y học</a>
+                <a>Đàn ông</a>
               </li>
               <li>
-                <a>Tin tức sức khỏe</a>
+                <a>Các bệnh</a>
               </li>
               <li>
-                <a>Vacxin covid 19</a>
-              </li>
-              <li>
-                <a>Ưng thư</a>
-              </li>
-              <li>
-                <a>Tra cứu các loại bệnh</a>
-              </li>
-              <li>
-                <a>Số liệu Covid 19</a>
-              </li>
-              <li>
-                <a>Bài thuốc dân gian</a>
+                <a>Vaccine</a>
               </li>
             </ul>
           </li>
           <li>
             <div className={cx("category")}>
               <img src="https://icdn.24h.com.vn/upload/4-2018/images/2018-11-05/eva-1541404755-220-width16height20.png" />
-              <a href="#">Phái đẹp</a>
+              <a href="#">Pháp luật</a>
             </div>
           </li>
           <li>
             <div className={cx("category")}>
               <img src="https://icdn.24h.com.vn/upload/4-2022/images/2022-12-15/icon-header-1671068809-987-width20height20.png" />
-              <a href="#">Đàn ông</a>
+              <a href="#">Giáo dục</a>
             </div>
           </li>
           <li>
             <div className={cx("category")}>
               <img src="https://icdn.24h.com.vn/upload/1-2020/images/2020-02-10/icons8-fiat-500-96-1581317289-765-width24height15.png" />
-              <a href="#">Ô tô</a>
+              <a href="#">Bất động sản</a>
             </div>
             <ul className={cx("submenu")}>
               <li>
-                <a>Tin tức ô tô</a>
+                <a></a>
               </li>
               <li>
-                <a>Bảng giá xe ô tô</a>
-              </li>
-              <li>
-                <a>Tư vấn</a>
-              </li>
-              <li>
-                <a>Ngắm xe</a>
-              </li>
-              <li>
-                <a>Đánh giá xe</a>
-              </li>
-              <li>
-                <a>Clip giao thông</a>
-              </li>
-              <li>
-                <a>Tra cứu ô tô</a>
+                <a></a>
               </li>
             </ul>
           </li>
           <li>
             <div className={cx("category")}>
               <img src="https://icdn.24h.com.vn/upload/3-2019/images/2019-08-19/nha_icon-20x20px--1566203736-124-width23height23.png" />
-              <a href="#">Ngoại hạng Anh</a>
+              <a href="#">Thể thao</a>
             </div>
           </li>
           {/* <li>

@@ -15,7 +15,10 @@ function CategoryPart() {
         Nassr thua 0-5
       </p>
       <div className={cx("news")}>
-        <img src="https://cdn.24h.com.vn/upload/3-2023/images/2023-07-18/120x90/vadvvxss-1689641372-917-width740height555.jpg" />
+        <img
+          style={{ width: 120, height: 90 }}
+          src="https://icdn.24h.com.vn/upload/2-2023/images/2023-06-16//1686878748-ab6b2421-9b58-47c9-b238-c11cf2520ce7-16868349442331818264385-width1200height800.jpeg"
+        />
         <p className={cx("content")}>
           Ronaldo có những chia sẻ đáng chú ý sau khi cùng Al Nassr thi đấu giao
           hữu với Celta Vigo.
