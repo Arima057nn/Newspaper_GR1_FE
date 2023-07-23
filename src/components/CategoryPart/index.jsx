@@ -1,19 +1,27 @@
 import classNames from "classnames/bind";
 import styles from "./CategoryPart.module.scss";
+import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const cx = classNames.bind(styles);
 
 function CategoryPart() {
+  const [article, setArticle] = useState({
+    id: 0,
+    name: "Khoa học",
+  });
   return (
     <div className={cx("wrapper")}>
       <div className={cx("header")}>
         <div className={cx("header-item")}>Bóng đá</div>
         <div className={cx("header-item2")}>Thể thao</div>
       </div>
-      <p className={cx("tittle")}>
-        Ronaldo tuyên bố giải Ả Rập tốt hơn MLS của Messi, đá chính ngày Al
-        Nassr thua 0-5
-      </p>
+      <Link to={`/detail/${article.name}`} style={{ textDecoration: "none" }}>
+        <p className={cx("tittle")}>
+          Ronaldo tuyên bố giải Ả Rập tốt hơn MLS của Messi, đá chính ngày Al
+          Nassr thua 0-5
+        </p>
+      </Link>
       <div className={cx("news")}>
         <img
           style={{ width: 120, height: 90 }}

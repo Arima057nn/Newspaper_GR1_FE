@@ -3,7 +3,7 @@ import styles from "./Content.module.scss";
 import CategoryPart from "../../CategoryPart";
 import CategoryPart2 from "../../CategoryPart2";
 import { articleApi } from "../../../services/article-api";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 const cx = classNames.bind(styles);
 
 function Content() {

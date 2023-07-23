@@ -7,11 +7,7 @@ function DetailLayout({ content }) {
   return (
     <div className={cx("wrapper")}>
       <Header />
-      <div className={cx("content")}>
-        <div className={cx("partLeft")}>{content}</div>
-        <div className={cx("partRight")}></div>
-      </div>
-      {/* <Footer /> */}
+      <div className={cx("content")}>{content}</div>
     </div>
   );
 }
