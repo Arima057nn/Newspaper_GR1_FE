@@ -6,8 +6,7 @@ const cx = classNames.bind(styles);
 function Right() {
   return (
     <div className={cx("wrapper")}>
-      <a>Tin tức thị trường</a>
-
+      <div className={cx("tittle")}>Tin tức thị trường</div>
       <table>
         <tr>
           <th>
@@ -56,25 +55,25 @@ function Right() {
         </tr>
       </table>
 
-      <a>Thông tin chứng khoán</a>
+      <div className={cx("tittle")}>Thông tin chứng khoán</div>
 
       <table>
         <tr>
-          <i> VN-INDEX </i>
+          <a> VN-INDEX </a>
           <g> 1138.07 </g>
           <g> ▲ </g>
           <g> +11.85 </g>
           <g> (+1.05%) </g>
         </tr>
         <tr>
-          <i> VN30-INDEX </i>
+          <a> VN30-INDEX </a>
           <g> 1129.43 </g>
           <g> ▲ </g>
           <g> +9.99 </g>
           <g> (+0.89%) </g>
         </tr>
         <tr>
-          <i> HNX-INDEX </i>
+          <a> HNX-INDEX </a>
           <g> 225.82 </g>
           <g> ▲ </g>
           <g> +0.74 </g>
