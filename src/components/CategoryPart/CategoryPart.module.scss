@@ -1,43 +1,49 @@
 .wrapper {
   width: 380px;
-  min-height: 200px;
+  // height: 350px;
   background-color: #fff;
-
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  padding: 8px 0;
-  margin-left: 4px;
+  padding: 8px 0 0 0;
 }
 
 .header-item {
   background-color: var(--primary-color);
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 4px;
   font-weight: 600;
+  color: #fff;
 }
 
 .header-item2 {
-  background-color: #ecf8f9;
-  border-radius: 2px;
+  background-color: #dedede;
+  border-radius: 4px;
   padding: 4px;
   margin-left: 8px;
+  font-weight: 500;
 }
 .tittle {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
+  padding: 8px 0;
   &:hover {
     cursor: pointer;
     color: var(--primary-color);
   }
+  overflow: hidden; /* Ẩn phần dư thừa của nội dung */
+  text-overflow: ellipsis; /* Hiển thị dấu chấm ba chấm (...) khi nội dung bị cắt */
+  white-space: nowrap;
 }
 .news {
   display: flex;
   flex-direction: row;
-  margin-top: 8px;
+
   margin-bottom: 4px;
 }
 .news1 {

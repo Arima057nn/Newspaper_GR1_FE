@@ -12,9 +12,12 @@ h1 {
 
 .tittle {
   color: rgb(26, 132, 26);
-  font-size: 26px;
+  font-size: 21px;
   text-decoration: underline;
   line-height: 2;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 table {
@@ -27,11 +30,11 @@ td {
   font-size: 17px;
   color: black;
   padding-left: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 14px;
 }
 
 th {
-  padding-bottom: 10px;
+  padding-bottom: 14px;
 }
 
 g {
@@ -44,4 +47,11 @@ a {
   font-size: 13px;
   color: black;
   padding: 4px;
+}
+
+.header {
+  &:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+  }
 }
