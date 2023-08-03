@@ -1,23 +1,45 @@
 export const Categories = [
   {
     id: 1,
-    name: "Bóng đá",
+    name: "Khoa học",
+    sub: [
+      {
+        id: 1,
+        name: "Tin tức",
+      },
+      {
+        id: 2,
+        name: "Dinh dưỡng",
+      },
+      {
+        id: 3,
+        name: "Khỏe đẹp",
+      },
+      {
+        id: 4,
+        name: "Các bệnh",
+      },
+      {
+        id: 5,
+        name: "Vaccine",
+      },
+    ],
   },
   {
     id: 2,
-    name: "Thế giới",
+    name: "Giải trí",
   },
   {
     id: 3,
-    name: "Thời trang",
+    name: "Kinh doanh",
   },
   {
     id: 4,
-    name: "Pháp luật",
+    name: "Du lịch",
   },
   {
     id: 5,
-    name: "Thời trang",
+    name: "Ẩm thực",
   },
   {
     id: 6,
@@ -25,14 +47,42 @@ export const Categories = [
   },
   {
     id: 7,
-    name: "Thể thao",
+    name: "Sức khỏe",
   },
   {
     id: 8,
-    name: "Làm đẹp",
+    name: "Pháp luật",
   },
   {
-    id: 1,
-    name: "Giải trí",
+    id: 9,
+    name: "Giáo dục",
+  },
+  {
+    id: 10,
+    name: "Thể thao",
+  },
+  {
+    id: 11,
+    name: "Bất động sản",
+  },
+  {
+    id: 12,
+    name: "Ô tô",
+  },
+  {
+    id: 13,
+    name: "Đời sống",
+  },
+  {
+    id: 14,
+    name: "Thế giới",
+  },
+  {
+    id: 15,
+    name: "Công nghệ thông tin",
+  },
+  {
+    id: 15,
+    name: "Bóng đá",
   },
 ];

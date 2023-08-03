@@ -15,10 +15,10 @@ function Header() {
           />
         </h1>
         <ul className={cx("menu")}>
-          <li>
+          {/* <li>
             <div className={cx("category")}>
               <img src="https://cdn.24h.com.vn/images/2014/menu-top-xem-danh-muc.gif" />
-              <a href="#">Danh muc</a>
+              <a href="#">Danh mục</a>
             </div>
             <ul className={cx("submenu")}>
               <li>
@@ -409,7 +409,7 @@ function Header() {
                 <a>Video tổng hợp</a>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li>
             <div className={cx("category")}>
               <img src="https://icdn.24h.com.vn/upload/4-2018/images/2018-11-05/tintuc-1541404755-851-width20height18.png" />
