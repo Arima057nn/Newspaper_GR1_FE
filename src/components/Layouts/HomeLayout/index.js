@@ -13,7 +13,7 @@ function HomeLayout({ content }) {
       <div className={cx("content")}>
         <div className={cx("partLeft")}>{content}</div>
         <div className={cx("partRight")}>
-          <Right />
+          <Right subCategoryId="64c9322480b0ef3155bbcaef" />
         </div>
       </div>
       <Footer />
