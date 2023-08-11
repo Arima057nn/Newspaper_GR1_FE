@@ -5,44 +5,18 @@
   background: #ebebeb;
 }
 
-.categories {
-  display: flex;
-  width: 80%;
-  margin: auto;
-  gap: 16px;
-
-  a {
-    font-size: 13px;
-    text-decoration: none;
-    color: black;
-    text-transform: capitalize;
-    font-weight: 700;
-    cursor: pointer;
-  }
-
-  a:hover {
-    color: #78b43d;
-  }
-
-  ul {
-    a {
-      font-size: 13px;
-      font-weight: 400;
-    }
-  }
-}
 .intro {
   background-color: #78b43d;
   width: 100%;
 
-  margin-top: 12px;
+  margin-top: 5px;
   span {
     color: white;
   }
 
   a {
-    font-size: 13px;
-    padding: 0 10px;
+    font-size: 20px;
+    padding: 10px;
     color: white;
     text-decoration: none;
     cursor: pointer;
@@ -55,7 +29,6 @@
   .intro-container {
     width: 80%;
     margin: auto;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,11 +40,12 @@
   margin: auto;
   display: flex;
   justify-content: center;
-  padding: 20px 0;
+  padding: 20px;
 
-  div {
+  b {
     font-size: 13px;
     color: grey;
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 }
